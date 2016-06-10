@@ -1,0 +1,7 @@
+.idea
+*.iml
+*.log
+npm-debug.log*
+coverage
+node_modules
+.DS_Store

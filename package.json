@@ -1,0 +1,32 @@
+{
+  "name": "promiqueen",
+  "version": "1.0.0",
+  "description": "Promisify wrapper that yields automatic handling of Promise or node-style callback based on invocation parameters.",
+  "main": "lib/promiqueen.js",
+  "scripts": {
+    "test": "istanbul cover --include-all-sources node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zamnuts/promiqueen.git"
+  },
+  "keywords": [
+    "promise",
+    "promisify",
+    "callback",
+    "callbackify"
+  ],
+  "author": "Andrew Zammit <zammit.andrew@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "bluebird": "^3.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  }
+}

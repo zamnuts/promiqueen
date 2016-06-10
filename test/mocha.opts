@@ -1,0 +1,6 @@
+--reporter spec
+--ui bdd
+--timeout 500ms
+--check-leads
+--recursive
+test/**/*.test.js

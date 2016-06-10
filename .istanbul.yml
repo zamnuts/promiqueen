@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+instrumentation:
+  compact: false
+  preserve-comments: true
+reporting:
+  print: detail
+  reports:
+    - lcov
+    - text
+...
